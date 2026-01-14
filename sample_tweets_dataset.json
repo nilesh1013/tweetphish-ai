@@ -1,0 +1,302 @@
+[
+  {
+    "tweet_id": "1001",
+    "text": "🚨 URGENT: Your account has been compromised! Click here immediately to secure it: http://bit.ly/secure-account-now",
+    "author": "SecurityAlert2024",
+    "author_username": "security_alert_2024",
+    "created_at": "2024-01-15T10:30:00Z",
+    "urls": ["http://bit.ly/secure-account-now"],
+    "expected_threat": "critical",
+    "expected_patterns": ["urgency", "account_compromise", "suspicious_url"]
+  },
+  {
+    "tweet_id": "1002",
+    "text": "💰 FREE GIVEAWAY! RT and follow to win $5000 Bitcoin! Winner announced in 24hrs! 🎁 http://crypto-giveaway.tk/claim",
+    "author": "CryptoGiveaway",
+    "author_username": "crypto_giveaway_official",
+    "created_at": "2024-01-15T11:00:00Z",
+    "urls": ["http://crypto-giveaway.tk/claim"],
+    "expected_threat": "high",
+    "expected_patterns": ["fake_giveaway", "financial_scam", "suspicious_domain"]
+  },
+  {
+    "tweet_id": "1003",
+    "text": "Your package delivery failed. Update your shipping address here: http://fedex-tracking.com/update?id=12345",
+    "author": "FedExSupport",
+    "author_username": "fedex_support_help",
+    "created_at": "2024-01-15T12:15:00Z",
+    "urls": ["http://fedex-tracking.com/update?id=12345"],
+    "expected_threat": "critical",
+    "expected_patterns": ["impersonation", "phishing", "credential_harvesting"]
+  },
+  {
+    "tweet_id": "1004",
+    "text": "BREAKING: Elon Musk is giving away 10,000 ETH! Send 0.1 ETH to this address and get 1 ETH back instantly! Limited time only!",
+    "author": "ElonMuskOfficial",
+    "author_username": "elon_musk_official_2024",
+    "created_at": "2024-01-15T13:00:00Z",
+    "urls": [],
+    "expected_threat": "critical",
+    "expected_patterns": ["celebrity_impersonation", "crypto_scam", "advance_fee_fraud"]
+  },
+  {
+    "tweet_id": "1005",
+    "text": "Click here to download the latest software update for your device: http://windows-update.xyz/download.exe",
+    "author": "WindowsSupport",
+    "author_username": "windows_support_official",
+    "created_at": "2024-01-15T14:30:00Z",
+    "urls": ["http://windows-update.xyz/download.exe"],
+    "expected_threat": "critical",
+    "expected_patterns": ["malware", "fake_software", "suspicious_executable"]
+  },
+  {
+    "tweet_id": "1006",
+    "text": "Your Netflix subscription has expired. Renew now to avoid service interruption: http://netflix-billing.com/renew",
+    "author": "NetflixHelp",
+    "author_username": "netflix_help_support",
+    "created_at": "2024-01-15T15:00:00Z",
+    "urls": ["http://netflix-billing.com/renew"],
+    "expected_threat": "high",
+    "expected_patterns": ["brand_impersonation", "payment_scam", "phishing"]
+  },
+  {
+    "tweet_id": "1007",
+    "text": "CONGRATULATIONS! You've been selected as a winner in our annual sweepstakes! Claim your $10,000 prize: http://prize-claim.info/winner",
+    "author": "PrizeNotification",
+    "author_username": "official_prize_notification",
+    "created_at": "2024-01-15T16:00:00Z",
+    "urls": ["http://prize-claim.info/winner"],
+    "expected_threat": "high",
+    "expected_patterns": ["lottery_scam", "advance_fee_fraud", "too_good_to_be_true"]
+  },
+  {
+    "tweet_id": "1008",
+    "text": "Your bank account has been locked due to suspicious activity. Verify your identity immediately: http://bank-verify.net/login",
+    "author": "BankSecurity",
+    "author_username": "bank_security_alert",
+    "created_at": "2024-01-15T17:00:00Z",
+    "urls": ["http://bank-verify.net/login"],
+    "expected_threat": "critical",
+    "expected_patterns": ["financial_phishing", "urgency", "credential_theft"]
+  },
+  {
+    "tweet_id": "1009",
+    "text": "Work from home and earn $5000/week! No experience needed! Apply now: http://work-from-home-jobs.biz/apply",
+    "author": "JobOpportunities",
+    "author_username": "job_opportunities_2024",
+    "created_at": "2024-01-15T18:00:00Z",
+    "urls": ["http://work-from-home-jobs.biz/apply"],
+    "expected_threat": "medium",
+    "expected_patterns": ["employment_scam", "unrealistic_promises", "data_harvesting"]
+  },
+  {
+    "tweet_id": "1010",
+    "text": "IRS NOTICE: You have unclaimed tax refund of $2,847. Click to claim before it expires: http://irs-refund.org/claim",
+    "author": "IRSNotice",
+    "author_username": "irs_notice_official",
+    "created_at": "2024-01-15T19:00:00Z",
+    "urls": ["http://irs-refund.org/claim"],
+    "expected_threat": "critical",
+    "expected_patterns": ["government_impersonation", "tax_scam", "phishing"]
+  },
+  {
+    "tweet_id": "1011",
+    "text": "Just published a new blog post about machine learning best practices in 2024. Check it out! https://techblog.com/ml-best-practices",
+    "author": "TechBlogger",
+    "author_username": "tech_blogger_ml",
+    "created_at": "2024-01-15T20:00:00Z",
+    "urls": ["https://techblog.com/ml-best-practices"],
+    "expected_threat": "safe",
+    "expected_patterns": []
+  },
+  {
+    "tweet_id": "1012",
+    "text": "Excited to announce our company's new product launch next week! Stay tuned for updates. #ProductLaunch #Innovation",
+    "author": "StartupCEO",
+    "author_username": "startup_ceo_official",
+    "created_at": "2024-01-15T21:00:00Z",
+    "urls": [],
+    "expected_threat": "safe",
+    "expected_patterns": []
+  },
+  {
+    "tweet_id": "1013",
+    "text": "Had a great coffee this morning at @LocalCafe. Their new seasonal blend is amazing! ☕",
+    "author": "CoffeeLover",
+    "author_username": "coffee_enthusiast_2024",
+    "created_at": "2024-01-15T22:00:00Z",
+    "urls": [],
+    "expected_threat": "safe",
+    "expected_patterns": []
+  },
+  {
+    "tweet_id": "1014",
+    "text": "Reminder: Our webinar on cybersecurity best practices starts in 1 hour. Register here: https://company.com/webinar-registration",
+    "author": "CyberSecurityCo",
+    "author_username": "cybersecurity_company",
+    "created_at": "2024-01-16T09:00:00Z",
+    "urls": ["https://company.com/webinar-registration"],
+    "expected_threat": "safe",
+    "expected_patterns": []
+  },
+  {
+    "tweet_id": "1015",
+    "text": "Looking for recommendations on good books about AI and ethics. Any suggestions? #AI #Ethics #BookRecommendations",
+    "author": "AIResearcher",
+    "author_username": "ai_researcher_phd",
+    "created_at": "2024-01-16T10:00:00Z",
+    "urls": [],
+    "expected_threat": "safe",
+    "expected_patterns": []
+  },
+  {
+    "tweet_id": "1016",
+    "text": "URGENT: Apple ID suspended! Verify your account within 24 hours or lose access permanently: http://apple-id-verify.com/secure",
+    "author": "AppleSupport",
+    "author_username": "apple_support_team_2024",
+    "created_at": "2024-01-16T11:00:00Z",
+    "urls": ["http://apple-id-verify.com/secure"],
+    "expected_threat": "critical",
+    "expected_patterns": ["brand_impersonation", "account_suspension_threat", "phishing"]
+  },
+  {
+    "tweet_id": "1017",
+    "text": "Get rich quick! Invest in our exclusive trading bot and make $10,000 in your first week! Limited spots available: http://trading-bot-pro.info/signup",
+    "author": "TradingExpert",
+    "author_username": "trading_expert_pro",
+    "created_at": "2024-01-16T12:00:00Z",
+    "urls": ["http://trading-bot-pro.info/signup"],
+    "expected_threat": "high",
+    "expected_patterns": ["investment_scam", "unrealistic_returns", "pyramid_scheme"]
+  },
+  {
+    "tweet_id": "1018",
+    "text": "Your Amazon order #12345 could not be delivered. Update your payment method: http://amazon-payment-update.net/billing",
+    "author": "AmazonHelp",
+    "author_username": "amazon_help_center_2024",
+    "created_at": "2024-01-16T13:00:00Z",
+    "urls": ["http://amazon-payment-update.net/billing"],
+    "expected_threat": "critical",
+    "expected_patterns": ["e-commerce_phishing", "payment_fraud", "brand_impersonation"]
+  },
+  {
+    "tweet_id": "1019",
+    "text": "Free iPhone 15 Pro Max! Be the first 100 to click and claim yours now! http://free-iphone-giveaway.tk/claim",
+    "author": "AppleGiveaway",
+    "author_username": "apple_giveaway_official",
+    "created_at": "2024-01-16T14:00:00Z",
+    "urls": ["http://free-iphone-giveaway.tk/claim"],
+    "expected_threat": "high",
+    "expected_patterns": ["fake_giveaway", "data_harvesting", "too_good_to_be_true"]
+  },
+  {
+    "tweet_id": "1020",
+    "text": "Your computer is infected with 5 viruses! Download our antivirus software immediately: http://antivirus-download.xyz/install.exe",
+    "author": "AntivirusAlert",
+    "author_username": "antivirus_alert_system",
+    "created_at": "2024-01-16T15:00:00Z",
+    "urls": ["http://antivirus-download.xyz/install.exe"],
+    "expected_threat": "critical",
+    "expected_patterns": ["malware", "scare_tactics", "fake_antivirus"]
+  },
+  {
+    "tweet_id": "1021",
+    "text": "Just finished reading an excellent paper on quantum computing applications. The future is exciting! #QuantumComputing #Research",
+    "author": "QuantumPhysicist",
+    "author_username": "quantum_physicist_phd",
+    "created_at": "2024-01-16T16:00:00Z",
+    "urls": [],
+    "expected_threat": "safe",
+    "expected_patterns": []
+  },
+  {
+    "tweet_id": "1022",
+    "text": "Congratulations on your new job! Here's a helpful guide for your first week: https://careeradvice.com/first-week-tips",
+    "author": "CareerCoach",
+    "author_username": "career_coach_mentor",
+    "created_at": "2024-01-16T17:00:00Z",
+    "urls": ["https://careeradvice.com/first-week-tips"],
+    "expected_threat": "safe",
+    "expected_patterns": []
+  },
+  {
+    "tweet_id": "1023",
+    "text": "Beautiful sunset at the beach today 🌅 #Nature #Photography #Sunset",
+    "author": "NaturePhotographer",
+    "author_username": "nature_photo_enthusiast",
+    "created_at": "2024-01-16T18:00:00Z",
+    "urls": [],
+    "expected_threat": "safe",
+    "expected_patterns": []
+  },
+  {
+    "tweet_id": "1024",
+    "text": "PayPal ALERT: Unusual activity detected. Confirm your identity to avoid account limitation: http://paypal-security-check.com/verify",
+    "author": "PayPalSecurity",
+    "author_username": "paypal_security_team",
+    "created_at": "2024-01-16T19:00:00Z",
+    "urls": ["http://paypal-security-check.com/verify"],
+    "expected_threat": "critical",
+    "expected_patterns": ["payment_phishing", "account_threat", "urgency"]
+  },
+  {
+    "tweet_id": "1025",
+    "text": "Lose 30 pounds in 30 days with our miracle weight loss pill! No diet or exercise needed! Order now: http://miracle-weightloss.biz/order",
+    "author": "HealthProducts",
+    "author_username": "health_products_store",
+    "created_at": "2024-01-16T20:00:00Z",
+    "urls": ["http://miracle-weightloss.biz/order"],
+    "expected_threat": "medium",
+    "expected_patterns": ["health_scam", "unrealistic_claims", "fake_products"]
+  },
+  {
+    "tweet_id": "1026",
+    "text": "Microsoft Security Alert: Your Windows license has expired. Renew immediately: http://windows-license-renewal.net/activate",
+    "author": "MicrosoftSupport",
+    "author_username": "microsoft_support_official",
+    "created_at": "2024-01-16T21:00:00Z",
+    "urls": ["http://windows-license-renewal.net/activate"],
+    "expected_threat": "high",
+    "expected_patterns": ["software_scam", "brand_impersonation", "fake_license"]
+  },
+  {
+    "tweet_id": "1027",
+    "text": "You've inherited $5.5 million from a distant relative! Contact our law firm to claim: http://inheritance-claim.info/contact",
+    "author": "LawFirm",
+    "author_username": "international_law_firm",
+    "created_at": "2024-01-16T22:00:00Z",
+    "urls": ["http://inheritance-claim.info/contact"],
+    "expected_threat": "high",
+    "expected_patterns": ["inheritance_scam", "advance_fee_fraud", "too_good_to_be_true"]
+  },
+  {
+    "tweet_id": "1028",
+    "text": "Google Account Security: Suspicious login detected from Nigeria. Secure your account now: http://google-account-security.com/secure",
+    "author": "GoogleSecurity",
+    "author_username": "google_security_alert",
+    "created_at": "2024-01-17T09:00:00Z",
+    "urls": ["http://google-account-security.com/secure"],
+    "expected_threat": "critical",
+    "expected_patterns": ["account_compromise", "phishing", "scare_tactics"]
+  },
+  {
+    "tweet_id": "1029",
+    "text": "Sharing some thoughts on sustainable development and climate action. We all have a role to play! #ClimateAction #Sustainability",
+    "author": "EnvironmentalActivist",
+    "author_username": "environmental_activist_2024",
+    "created_at": "2024-01-17T10:00:00Z",
+    "urls": [],
+    "expected_threat": "safe",
+    "expected_patterns": []
+  },
+  {
+    "tweet_id": "1030",
+    "text": "Excited to share that I'll be speaking at the Tech Conference 2024! Hope to see you there. Register: https://techconference2024.com/register",
+    "author": "TechSpeaker",
+    "author_username": "tech_speaker_keynote",
+    "created_at": "2024-01-17T11:00:00Z",
+    "urls": ["https://techconference2024.com/register"],
+    "expected_threat": "safe",
+    "expected_patterns": []
+  }
+]

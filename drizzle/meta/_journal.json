@@ -1,0 +1,27 @@
+{
+  "version": "7",
+  "dialect": "mysql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1768344512096,
+      "tag": "0000_brief_cable",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1768344618913,
+      "tag": "0001_military_forge",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1768345062504,
+      "tag": "0002_sparkling_korath",
+      "breakpoints": true
+    }
+  ]
+}
